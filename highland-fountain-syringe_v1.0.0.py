@@ -229,10 +229,10 @@ def inject_fountain(fountain_path, highland_path):
 
 # ---------------- GUI ---------------- #
 
-class HighlandToolGUI:
+class HighlandFSGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Highland Fountain Tool")
+        self.root.title("Highland Fountain Syringe")
         self.root.geometry("540x420")  # slightly taller / wider
 
         self.mode = tk.StringVar(value="extract")
@@ -287,5 +287,5 @@ class HighlandToolGUI:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    HighlandToolGUI(root)
+    HighlandFSGUI(root)
     root.mainloop()
