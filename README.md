@@ -31,7 +31,7 @@ Pairs well with **[Better Fountain](https://github.com/piersdeseilligny/betterfo
 
 Browse to the repo on your local machine and launch the GUI via command-line:
 
-    python highland-fountain-syringe.py
+    python highland-fountain-syringe_[version].py
 
 ### GUI
 
